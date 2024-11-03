@@ -1,0 +1,29 @@
+{
+  "name": "wyvate-vednor-backend-in-node",
+  "version": "1.0.0",
+  "description": "WYVATE VENDOR BACKEND IN NODE",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "type": "module",
+    "start": "nodemon ts-node ./index.ts"
+  },
+  "author": "SURAJ AND MANYA",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "pg": "^8.13.1",
+    "typescript": "^5.6.3",
+    "winston": "^3.16.0"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.17",
+    "@types/express": "^5.0.0",
+    "@types/pg": "^8.11.10",
+    "nodemon": "^3.1.7",
+    "ts-node": "^10.9.2"
+  }
+}
